@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Golden Dreams is a premium Cantonese restaurant in Southbank serving dim sum, seafood, roast dishes, tea, wine, and banquet dining."
+    >
+    <title>Golden Dreams | Cantonese Dining</title>
+    <link rel="icon" href="assets/img/golden-bird-logo.webp" type="image/webp">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <!-- Adapted from CodeStitch Standard Navigation stitch: https://www.codestitch.app/app/dashboard/stitches/757/rendered -->
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand-mark" href="#home" aria-label="Golden Dreams home">
+          <span class="brand-icon" aria-hidden="true">
+            <img src="assets/img/golden-bird-logo.webp" width="229" height="320" alt="">
+          </span>
+          <span class="brand-text">
+            <strong>Golden Dreams</strong>
+            <small>Cantonese Dining</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+          <span class="sr-only">Open navigation menu</span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav-list" id="primary-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#story">Story</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+
+        <a class="nav-cta" href="#reservation">Reserve</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- Content section 1. Adapted from CodeStitch Landing + Services stitch: https://www.codestitch.app/app/dashboard/stitches/1946/rendered -->
+      <section class="hero-section" id="home" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="assets/img/hero-interior.webp"
+            width="1920"
+            height="1280"
+            alt=""
+            decoding="async"
+            fetchpriority="high"
+          >
+        </div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="section-inner hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Melbourne Cantonese Dining</p>
+            <h1 id="hero-title">Welcome to Golden Dreams</h1>
+            <p class="hero-lede">
+              Handmade dim sum, live seafood, roast meats, and considered tea service in a warm
+              Southbank dining room made for long lunches and evening banquets.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#reservation">Book a Table</a>
+              <a class="button button-secondary" href="#menu">View Menu</a>
+            </div>
+          </div>
+
+          <aside class="hero-note reveal" aria-label="Dining highlights">
+            <span class="note-kicker">Tonight's focus</span>
+            <strong>Jade banquet menu</strong>
+            <p>Six shared courses with steamed seafood, roast duck, seasonal greens, and a tea-paired dessert finish.</p>
+          </aside>
+        </div>
+
+        <div class="quick-actions section-inner" role="group" aria-label="Key restaurant actions">
+          <a class="action-card reveal" href="#menu" data-tilt>
+            <span class="card-number">01</span>
+            <strong>Our Menu</strong>
+            <span>Explore signature dishes</span>
+          </a>
+          <a class="action-card reveal" href="#reservation" data-tilt>
+            <span class="card-number">02</span>
+            <strong>Reservation</strong>
+            <span>Find a seating time</span>
+          </a>
+          <a class="action-card reveal" href="#gallery" data-tilt>
+            <span class="card-number">03</span>
+            <strong>Gallery</strong>
+            <span>See the dining mood</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Content section 2. Adapted from CodeStitch restaurant Side By Side stitch: https://www.codestitch.app/app/dashboard/stitches/1007/rendered -->
+      <section class="story-section" id="story" aria-labelledby="story-title">
+        <div class="section-inner split-layout">
+          <div class="image-composition reveal">
+            <img
+              class="image-main"
+              src="assets/img/steamer-close.webp"
+              width="1100"
+              height="676"
+              alt="Dim sum arranged in bamboo steamers on a dining table"
+              loading="lazy"
+              decoding="async"
+            >
+            <div class="floating-stat" role="note" aria-label="Restaurant detail">
+              <span>18</span>
+              <small>folds in every dumpling</small>
+            </div>
+          </div>
+
+          <div class="section-copy reveal">
+            <p class="eyebrow">About Us</p>
+            <h2 id="story-title">Cantonese cooking with a generous Melbourne welcome</h2>
+            <p>
+              Golden Dreams brings the rhythm of a Hong Kong dining room to Southbank: bamboo
+              steamers arriving hot from the kitchen, seafood finished with ginger and aged soy,
+              and roast dishes carved for the table.
+            </p>
+            <p>
+              Lunch is relaxed and lively, dinner is slower and more ceremonial, and every service
+              is built around sharing food with people you want to stay at the table with.
+            </p>
+            <ul class="feature-list">
+              <li>Handmade dim sum prepared fresh each day</li>
+              <li>Seasonal Australian seafood cooked in Cantonese style</li>
+              <li>Private banquet seating available for families and groups</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Content section 3. Menu and Gallery are separated visually within the dining content area. -->
+      <section class="dining-section" aria-label="Menu and gallery">
+        <div class="menu-section" id="menu">
+          <div class="section-inner">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Our Menu</p>
+              <h2 id="menu-title">A fuller Cantonese dining menu</h2>
+              <p>
+                Start with steamers, add seafood or roast dishes for the table, and finish with
+                tea, wine, or a shared banquet menu.
+              </p>
+            </div>
+
+            <div class="filter-bar reveal" role="group" aria-label="Filter menu dishes">
+              <button class="filter-button is-active" type="button" data-filter="all">All</button>
+              <button class="filter-button" type="button" data-filter="dim-sum">Dim Sum</button>
+              <button class="filter-button" type="button" data-filter="seafood">Seafood</button>
+              <button class="filter-button" type="button" data-filter="roast">Roast & Wok</button>
+              <button class="filter-button" type="button" data-filter="banquet">Banquet</button>
+              <button class="filter-button" type="button" data-filter="drinks">Tea & Wine</button>
+            </div>
+
+            <div class="menu-board reveal" aria-live="polite">
+              <article class="menu-item" data-category="dim-sum">
+                <img class="menu-hover-image" src="assets/img/menu/crystal-har-gow.webp" alt="" aria-hidden="true" loading="lazy">
+                <span class="menu-type">Dim Sum</span>
+                <div class="menu-line">
+                  <h3>Crystal Har Gow</h3>
+                  <strong>$16</strong>
+                </div>
+                <p>Prawn dumplings with translucent wrappers and ginger vinegar.</p>
+              </article>
+              <article class="menu-item" data-category="dim-sum">
+                <img class="menu-hover-image" src="assets/img/menu/truffle-siu-mai.webp" alt="" aria-hidden="true" loading="lazy">
+                <span class="menu-type">Dim Sum</span>
+                <div class="menu-line">
+                  <h3>Truffle Siu Mai</h3>
+                  <strong>$18</strong>
+                </div>
+                <p>Pork, prawn, shiitake, black truffle, and house XO oil.</p>
+              </article>
+              <article class="menu-item" data-category="dim-sum">
+                <img class="menu-hover-image" src="assets/img/menu/turnip-cake.webp" alt="" aria-hidden="true" loading="lazy">
+                <span class="menu-type">Dim Sum</span>
+                <div class="menu-line">
+                  <h3>Pan-Fried Turnip Cake</h3>
+                  <strong>$14</strong>
+                </div>
+                <p>Daikon, preserved sausage, scallion, and sweet soy glaze.</p>
+              </article>
+              <article class="menu-item" data-category="seafood">
+                <img class="menu-hover-image" src="assets/img/menu/steamed-barramundi.webp" alt="" aria-hidden="true" loading="lazy">
+                <span class="menu-type">Seafood</span>
+                <div class="menu-line">
+                  <h3>Steamed Barramundi</h3>
+                  <strong>$42</strong>
+                </div>
+                <p>Aged soy, ginger, spring onion, and hot peanut oil.</p>
+              </article>
+              <article class="menu-item" data-category="seafood">
+                <img class="menu-hover-image" src="assets/img/menu/xo-scallops.webp" alt="" aria-hidden="true" loading="lazy">
+                <span class="menu-type">Seafood</span>
+                <div class="menu-line">
+                  <h3>XO Scallops</h3>
+                  <strong>$36</strong>
+                </div>
+                <p>Seared scallops with asparagus, lily bulb, and house XO sauce.</p>
+              </article>
+              <article class="menu-item" data-category="seafood">
+                <img class="menu-hover-image" src="assets/img/menu/typhoon-crab.webp" alt="" aria-hidden="true" loading="lazy">
+                <span class="menu-type">Seafood</span>
+                <div class="menu-line">
+                  <h3>Typhoon Shelter Crab</h3>
+                  <strong>$58</strong>
+                </div>
+                <p>Crisp garlic crumb, chilli, black bean, and fragrant shallot.</p>
+              </article>
+              <article class="menu-item" data-category="roast">
+                <img class="menu-hover-image" src="assets/img/menu/roast-duck.webp" alt="" aria-hidden="true" loading="lazy">
+                <span class="menu-type">Roast & Wok</span>
+                <div class="menu-line">
+                  <h3>Cantonese Roast Duck</h3>
+                  <strong>$38</strong>
+                </div>
+                <p>Plum lacquer, cucumber, soft pancakes, and sesame hoisin.</p>
+              </article>
+              <article class="menu-item" data-category="roast">
+                <img class="menu-hover-image" src="assets/img/menu/black-pepper-wagyu.webp" alt="" aria-hidden="true" loading="lazy">
+                <span class="menu-type">Roast & Wok</span>
+                <div class="menu-line">
+                  <h3>Black Pepper Wagyu</h3>
+                  <strong>$46</strong>
+                </div>
+                <p>Wok-seared beef, capsicum, onion, and cracked black pepper sauce.</p>
+              </article>
+              <article class="menu-item" data-category="roast">
+                <img class="menu-hover-image" src="assets/img/menu/market-greens.webp" alt="" aria-hidden="true" loading="lazy">
+                <span class="menu-type">Roast & Wok</span>
+                <div class="menu-line">
+                  <h3>Market Greens</h3>
+                  <strong>$24</strong>
+                </div>
+                <p>Seasonal greens with garlic broth, sesame, and fried shallot.</p>
+              </article>
+              <article class="menu-item" data-category="banquet">
+                <img class="menu-hover-image" src="assets/img/menu/jade-banquet.webp" alt="" aria-hidden="true" loading="lazy">
+                <span class="menu-type">Banquet</span>
+                <div class="menu-line">
+                  <h3>Jade Banquet Set</h3>
+                  <strong>$88pp</strong>
+                </div>
+                <p>Six shared courses, tea pairing, and dessert trolley finish.</p>
+              </article>
+              <article class="menu-item" data-category="drinks">
+                <img class="menu-hover-image" src="assets/img/menu/jasmine-tea.webp" alt="" aria-hidden="true" loading="lazy">
+                <span class="menu-type">Tea & Wine</span>
+                <div class="menu-line">
+                  <h3>Jasmine Tea Flight</h3>
+                  <strong>$12</strong>
+                </div>
+                <p>Three fragrant Chinese teas served across the meal.</p>
+              </article>
+              <article class="menu-item" data-category="drinks">
+                <img class="menu-hover-image" src="assets/img/menu/riesling-pairing.webp" alt="" aria-hidden="true" loading="lazy">
+                <span class="menu-type">Tea & Wine</span>
+                <div class="menu-line">
+                  <h3>Riesling Pairing</h3>
+                  <strong>$18</strong>
+                </div>
+                <p>Mineral white wine pairing selected for seafood and dim sum.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-section" id="gallery">
+          <div class="section-inner">
+            <div class="gallery-heading reveal">
+              <div>
+                <p class="eyebrow">Gallery</p>
+                <h2 id="gallery-title">Dining room, dishes, and details</h2>
+              </div>
+              <p>
+                Step inside the dining room and preview the kind of tables, plates, and quiet
+                details that shape an evening at Golden Dreams.
+              </p>
+            </div>
+
+            <div class="gallery-grid">
+              <button class="gallery-card gallery-card-large reveal" type="button" data-gallery-title="Golden dining room" data-tilt>
+                <img
+                  src="assets/img/dining-room.webp"
+                  width="1400"
+                  height="2100"
+                  alt="Warm restaurant interior with red lanterns"
+                  loading="lazy"
+                  decoding="async"
+                >
+                <span>Golden dining room</span>
+              </button>
+              <button class="gallery-card reveal" type="button" data-gallery-title="Shared dim sum table" data-tilt>
+                <img
+                  src="assets/img/dim-sum-spread.webp"
+                  width="1400"
+                  height="933"
+                  alt="Dim sum and shared Cantonese dishes on a dining table"
+                  loading="lazy"
+                  decoding="async"
+                >
+                <span>Shared dim sum table</span>
+              </button>
+              <button class="gallery-card reveal" type="button" data-gallery-title="Tea and wine service" data-tilt>
+                <img
+                  src="assets/img/wine-toast.webp"
+                  width="1100"
+                  height="1650"
+                  alt="Guests raising drinks in a restaurant"
+                  loading="lazy"
+                  decoding="async"
+                >
+                <span>Tea and wine service</span>
+              </button>
+              <button class="gallery-card reveal" type="button" data-gallery-title="Steamer craft" data-tilt>
+                <img
+                  src="assets/img/steamer-close.webp"
+                  width="1100"
+                  height="676"
+                  alt="Cantonese dumplings inside bamboo steamers"
+                  loading="lazy"
+                  decoding="async"
+                >
+                <span>Steamer craft</span>
+              </button>
+              <button class="gallery-card reveal" type="button" data-gallery-title="Lantern booth atmosphere" data-tilt>
+                <img
+                  src="assets/img/hero-interior.webp"
+                  width="1920"
+                  height="1280"
+                  alt="Lantern-lit Cantonese restaurant seating"
+                  loading="lazy"
+                  decoding="async"
+                >
+                <span>Lantern booth atmosphere</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Content section 4. Adapted from CodeStitch SBS Form stitch: https://www.codestitch.app/app/dashboard/stitches/984/rendered -->
+      <section class="reservation-section" id="reservation" aria-labelledby="reservation-title">
+        <div class="section-inner reservation-grid">
+          <div class="reservation-copy reveal">
+            <p class="eyebrow">Visit Us</p>
+            <h2 id="reservation-title">Reserve a table for lunch, dinner, or a banquet</h2>
+            <p>
+              Tell us how many guests are coming and the kind of occasion you have in mind. We will
+              suggest a table style that suits the pace of your meal.
+            </p>
+            <div class="visit-details">
+              <div>
+                <strong>Location</strong>
+                <span>86 Lantern Lane, Southbank VIC 3006</span>
+              </div>
+              <div>
+                <strong>Hours</strong>
+                <span>Tue-Sun: 12:00pm-3:00pm, 5:30pm-10:30pm</span>
+              </div>
+              <div>
+                <strong>Contact</strong>
+                <span>+61 3 9021 8840 - bookings@goldendreamsdining.com.au</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="booking-panel reveal" id="booking-form" novalidate>
+            <div class="form-row two-col">
+              <label>
+                Name
+                <input name="name" type="text" autocomplete="name" placeholder="Your name" required>
+              </label>
+              <label>
+                Phone
+                <input name="phone" type="tel" autocomplete="tel" placeholder="+61 400 000 000" required>
+              </label>
+            </div>
+
+            <div class="form-row two-col">
+              <label>
+                Party size
+                <select name="party" id="party-size">
+                  <option value="2">2 guests</option>
+                  <option value="4" selected>4 guests</option>
+                  <option value="6">6 guests</option>
+                  <option value="8">8 guests</option>
+                </select>
+              </label>
+              <label>
+                Occasion
+                <select name="occasion" id="occasion">
+                  <option value="date">Quiet dinner</option>
+                  <option value="family" selected>Family banquet</option>
+                  <option value="business">Business meal</option>
+                  <option value="celebration">Celebration</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="time-options" role="group" aria-label="Choose preferred booking time">
+              <button class="time-chip is-active" type="button" data-time="12:30pm">12:30pm</button>
+              <button class="time-chip" type="button" data-time="6:00pm">6:00pm</button>
+              <button class="time-chip" type="button" data-time="7:30pm">7:30pm</button>
+              <button class="time-chip" type="button" data-time="8:45pm">8:45pm</button>
+            </div>
+
+            <div class="recommendation" aria-live="polite" id="booking-result">
+              <span>Recommended table</span>
+              <strong>Lantern booth for 4 at 12:30pm</strong>
+              <p>Best for shared yum cha plates, tea refills, and a relaxed 90-minute seating.</p>
+            </div>
+
+            <button class="button button-primary booking-submit" type="submit">
+              Send Booking Request
+            </button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Adapted from CodeStitch 3 Column Footer stitch: https://www.codestitch.app/app/dashboard/stitches/269/rendered -->
+    <footer class="site-footer">
+      <div class="section-inner footer-grid">
+        <div>
+          <a class="brand-mark footer-brand" href="#home" aria-label="Golden Dreams home">
+            <span class="brand-icon" aria-hidden="true">
+              <img src="assets/img/golden-bird-logo.webp" width="229" height="320" alt="">
+            </span>
+            <span class="brand-text">
+              <strong>Golden Dreams</strong>
+              <small>Cantonese Dining</small>
+            </span>
+          </a>
+          <p>Premium Cantonese dining in Southbank, open for yum cha, dinner, and private banquets.</p>
+        </div>
+        <div>
+          <h2>Explore</h2>
+          <a href="#story">Story</a>
+          <a href="#menu">Menu</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#reservation">Reserve</a>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <p>86 Lantern Lane, Southbank VIC 3006</p>
+          <p>+61 3 9021 8840</p>
+          <p>bookings@goldendreamsdining.com.au</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
