@@ -481,12 +481,12 @@ h3 {
   color: rgba(255, 250, 240, 0.74);
 }
 
-.story-section,
+.about-section,
 .reservation-section {
   padding: var(--section-padding);
 }
 
-.story-section {
+.about-section {
   background:
     linear-gradient(180deg, var(--paper) 0%, var(--cream) 100%);
 }
